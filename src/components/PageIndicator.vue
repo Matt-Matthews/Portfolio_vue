@@ -1,7 +1,7 @@
 <template>
   <div class="text-white fixed flex flex-col items-center gap-1 top-1/3 left-9">
     <VerticalLine />
-    <div
+    <a
       v-for="(link, index) in links"
       :key="link"
       @click="()=> handlePageChange(index)"
@@ -13,9 +13,8 @@
           : 'primary-bg-color'
       "
       class="p-1 rounded"
-    >
-      <a :href="`#${link}`" />
-    </div>
+      :href="`#${link}`"
+    />
     <VerticalLine />
   </div>
 </template>
