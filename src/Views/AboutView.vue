@@ -1,6 +1,8 @@
 <template>
-<div class="container h-full columns-1" id='about'>
-    About
+<div class="primary-bg-color h-full columns-1" id='about'>
+    <div class="ml-20">
+        About
+    </div>
 </div>
 </template>
 

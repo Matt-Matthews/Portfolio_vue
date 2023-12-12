@@ -5,6 +5,9 @@
 .bacground-color{
     background-color: #000000;
 }
+.view-bg-color{
+    background-color: #0B0A0A;
+}
 .primary-bg-color{
     background-color: #00909E;
 }
@@ -13,4 +16,10 @@
 }
 .icon {
     color: #00909E;
-  }
+}
+nav div a.active {
+    color: #00909E;
+}
+nav div a:hover{
+    color: #00909E;
+}

@@ -1,14 +1,30 @@
 <template>
-<div class="text-white fixed flex flex-col items-center gap-1 top-1/3 left-9  ">
-    <div class="h-40 w-1 rounded bg-slate-300"/>
-    <div class="p-1 bg-slate-300 rounded" />
-    <div class="p-1 bg-slate-300 rounded" />
-    <div class="p-1 bg-slate-300 rounded" />
-    <div class="p-1 bg-slate-300 rounded" />
-    <div class="h-40 w-1 rounded bg-slate-300"/>
-</div>
+  <div class="text-white fixed flex flex-col items-center gap-1 top-1/3 left-9">
+    <VerticalLine />
+    <div
+      v-for="(link, index) in links"
+      :key="link"
+      @click="()=> handlePageChange(index)"
+      :class="
+        isActive !== index
+          ? 'bg-slate-300'
+          : isActive === 1
+          ? 'bg-black'
+          : 'primary-bg-color'
+      "
+      class="p-1 rounded"
+    >
+      <a :href="`#${link}`" />
+    </div>
+    <VerticalLine />
+  </div>
 </template>
 
 <script setup>
+import VerticalLine from "./VerticalLine.vue";
+import { storeToRefs } from "pinia";
+import { useGlobalStore } from "../store/globalStore.js";
 
+const { isActive } = storeToRefs(useGlobalStore());
+const { links, handlePageChange } = useGlobalStore();
 </script>
