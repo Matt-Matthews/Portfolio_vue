@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white fixed flex flex-col items-center gap-1 top-1/3 left-9">
+  <div class="text-white md:fixed md:flex  md:flex-col items-center gap-1 top-1/3 left-5 hidden z-50">
     <VerticalLine />
     <a
       v-for="(link, index) in links"

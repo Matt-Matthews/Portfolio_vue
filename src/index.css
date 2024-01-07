@@ -23,3 +23,13 @@ nav div a.active {
 nav div a:hover{
     color: #00909E;
 }
+
+.bg-image{
+    background-image: url('/public/bg_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custome-font {
+    font-family: "Damion";
+}

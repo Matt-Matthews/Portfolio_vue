@@ -1,9 +1,21 @@
 <template>
-  <div class="text-white w-3/4">
-    <div class="font-mono primary-color text-4xl">Mathews Paku</div>
-    <div class="text-6xl w-3/5 mt-4">
+  <div class="text-white flex flex-col items-center justify-center h-fit">
+    <div class="custome-font text-2xl md:text-4xl animate__animated animate__backInDown">Mathews Paku</div>
+    <div class="text-2xl md:text-4xl text-center w-3/4 lg:w-1/2 mt-4 primary-color animate__animated animate__backInLeft">
+      Full stack developer
+    </div>
+    <div class="lg:text-6xl md:text-5xl text-3xl text-center w-3/4 lg:w-1/2 mt-4 animate__animated animate__backInRight">
       I am passionate about building innovative products that solve real-world problems.
     </div>
-    <div class="mt-6 py-2 rounded-md cursor-pointer primary-bg-color w-40 text-center">Download CV</div>
+    <div
+      class="mt-16 py-2 md:py-1 lg:py-2 rounded-md cursor-pointer primary-bg-color lg:w-40 w-32 text-center animate__animated animate__backInUp"
+    >
+      <a
+        href="https://drive.google.com/file/d/1eBQEmcCTdANC-FA2Z3UV3Oru67ENlVxy/view?usp=sharing"
+        target="_blank"
+      >
+        Download CV
+      </a>
+    </div>
   </div>
 </template>
