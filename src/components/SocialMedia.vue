@@ -1,5 +1,5 @@
 <template>
-  <div class="md:flex lg:flex gap-3 items-center hidden ">
+  <div class="flex gap-x-7 md:gap-x-3 items-center">
     <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FMatthewsPaku" target="_blank">
       <AkTwitterFill class="icon text-md" />
     </a>
@@ -12,10 +12,6 @@
     <a href="https://github.com/Matt-Matthews" target="_blank">
       <AkGithubFill class="icon text-md" />
     </a>
-    
-    
-    
-    
   </div>
 </template>
 <script setup>

@@ -4,6 +4,7 @@ import PageIndicator from './PageIndicator.vue'
 import VerticalLine from './VerticalLine.vue'
 import SocialMedia from './SocialMedia.vue'
 import SkillCard from './SkillCard.vue'
+import MobileNavMenu from './MobileNavMenu.vue'
 
 export {
     HeroBio,
@@ -11,5 +12,6 @@ export {
     PageIndicator,
     VerticalLine,
     SocialMedia,
-    SkillCard
+    SkillCard,
+    MobileNavMenu
 }
