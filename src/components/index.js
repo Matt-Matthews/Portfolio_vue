@@ -5,6 +5,9 @@ import VerticalLine from './VerticalLine.vue'
 import SocialMedia from './SocialMedia.vue'
 import SkillCard from './SkillCard.vue'
 import MobileNavMenu from './MobileNavMenu.vue'
+import Summary from './Summary.vue'
+import SummaryDetails from './SummaryDetails.vue'
+import ProjectCard from './ProjectCard.vue'
 
 export {
     HeroBio,
@@ -13,5 +16,8 @@ export {
     VerticalLine,
     SocialMedia,
     SkillCard,
-    MobileNavMenu
+    MobileNavMenu,
+    Summary,
+    SummaryDetails,
+    ProjectCard
 }

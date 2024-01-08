@@ -33,3 +33,13 @@ nav div a:hover{
 .custome-font {
     font-family: "Damion";
 }
+.card-width{
+    width: 32%;
+}
+.main-container::-webkit-scrollbar{
+    display: none;
+}
+.main-container{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
