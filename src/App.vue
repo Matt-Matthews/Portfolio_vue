@@ -1,17 +1,12 @@
 <script setup>
 import { NavBar } from "./components/index.js";
 import { AboutView, HomeView, ContactView, ProjectsView } from "./views";
-import bg_image from "./assets/bg_image.jpg";
+import bg_image from './assets/bg_image.jpg'
 </script>
 
 <template>
-  <div
-    class="bacground-color flex justify-center scroll-smooth"
-  >
-    <div
-      class="max-w-screen-2xl bg-image max-h-screen main-container w-full overflow-x-hidden h-screen font-serif relative scroll-smooth"
-    >
-      <!-- <img :src="bg_image" alt="Bacground image" class="absolut w-full top-0 -z-10" /> -->
+  <div class="bacground-color flex justify-center scroll-smooth">
+    <div class="max-w-screen-2xl bg-image max-h-screen w-full lg:overflow-hidden overflow-x-hidden md:overflow-hidden h-screen font-serif relative scroll-smooth">
       <NavBar />
       <HomeView />
       <AboutView />

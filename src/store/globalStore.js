@@ -46,7 +46,12 @@ export const useGlobalStore = defineStore('global', {
                 imgUrl: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                 gitLink: 'https://github.com/Matt-Matthews'
             },
-            
+            {
+                name: 'Car Auction 3',
+                description: "A micro-services system for car auction and bidding. The project is developed with C# .Net, Nextjs, Postgres DB, MongoDB and Rabbit-MQ and signalR.",
+                imgUrl: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                gitLink: 'https://github.com/Matt-Matthews'
+            },
         ]
     }),
     actions: {

@@ -43,3 +43,6 @@ nav div a:hover{
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+.textarea{
+    min-height: 50px;
+}
