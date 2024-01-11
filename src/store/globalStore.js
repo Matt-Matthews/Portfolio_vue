@@ -4,8 +4,8 @@ export const useGlobalStore = defineStore('global', {
     state: () => ({
         isActive: 0,
         links: ["home", "about", "projects", "contact"],
-        frontEndSkills: ['ReactJs', 'Vuejs', 'React Native', 'Flutter', 'Tailwind css', 'Quasar', 'Bootstrap', 'Redux', 'Hive', 'SQlite'],
-        backEndSkills: ['NodeJs', 'ExpressJs', '.Net core', 'Asp.Net', '.Net 7 & 8', 'MQTT', 'Kafka', 'SignalR', 'Rabit-MQ', 'EntityFramework', 'RestfulAPIs', 'Websorket', 'PostgreSql', 'ArangoDB', 'Aws', 'MongoDB', 'InfluxDB', 'MySql', 'GraphQL', 'Flask',],
+        frontEndSkills: ['ReactJs', 'Vuejs', 'React Native', 'Flutter', 'Tailwind css', 'Quasar', 'Bootstrap', 'Redux', 'Hive', 'SQlite', 'NodeJs', 'ExpressJs', '.Net core', 'Asp.Net', '.Net 7 & 8', 'MQTT', 'Kafka', 'SignalR', 'Rabit-MQ', 'EntityFramework', 'RestfulAPIs', 'Websorket', 'PostgreSql', 'ArangoDB', 'Aws', 'MongoDB', 'InfluxDB', 'MySql', 'GraphQL', 'Flask','Javascript', 'Typescript', 'C++', 'C#', 'Docker', 'Figma', 'Adobe XD', 'Python', 'Firebase', 'CI/CD'],
+        backEndSkills: [],
         otherSkills: ['Javascript', 'Typescript', 'C++', 'C#', 'Docker', 'Figma', 'Adobe XD', 'Python', 'Firebase', 'CI/CD'],
         isButtonClicked: false,
         isOpen: false,

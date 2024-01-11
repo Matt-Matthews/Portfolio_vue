@@ -1,7 +1,7 @@
 <template>
   <div class="h-full columns-1 w-full px-5 pt-20" id="projects">
     <h1 class="text-white font-bold text-lg px-4 py-3">Projects</h1>
-    <div class="h-5/6 text-white flex gap-x-1 md:gap-x-3 lg:gap-x-7 flex-wrap gap-y-2">
+    <!-- <div class="h-5/6 text-white flex gap-x-1 md:gap-x-3 lg:gap-x-7 flex-wrap gap-y-2">
       <ProjectCard v-for="(project, index) in projects" :key="index" :project="project" />
     </div>
     <div class="text-white md:mt-2 flex items-center justify-center">
@@ -19,7 +19,7 @@
           <AkChevronRight class="text-2xl" />
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
