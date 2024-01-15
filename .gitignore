@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Configs
-*/config.json
+src/utils/config.json

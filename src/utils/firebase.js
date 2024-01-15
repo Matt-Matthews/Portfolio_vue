@@ -1,10 +1,10 @@
 import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
-import configs from "./config.json"
+import config from "./config.json"
 
 const firebaseConfig = {
-  ...configs[0]
+  ...config[0]
 };
 
 // Initialize Firebase
